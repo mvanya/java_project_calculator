@@ -65,7 +65,7 @@ public class Main {
                 result = pow(Integer.parseInt(symbols[0]), Integer.parseInt(symbols[2]));
                 break;
             case "?":
-               // result = comp(Boolean.parseBoolean(Integer.parseInt(symbols[0]), Boolean.parseBoolean(String.valueOf(Integer.parseInt(symbols[2])))));
+                result = comp(Boolean.parseBoolean(Integer.parseInt(symbols[0]), Boolean.parseBoolean(String.valueOf(Integer.parseInt(symbols[2])))));
             default:
                 System.out.println("Не известная операция, попробуй еще");
                 result = Integer.parseInt(symbols[0]) + Integer.parseInt(symbols[2]);
